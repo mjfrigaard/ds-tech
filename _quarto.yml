@@ -1,0 +1,66 @@
+project:
+  type: book
+
+book:
+  title: "Data Science Technologies"
+  subtitle: 'A Non-Technical Guide'
+  page-footer:
+    left: |
+      Data Technologies was written by Martin Frigaard
+    right: |
+      This book was built with <a href="https://quarto.org/">Quarto</a>.
+
+  chapters:
+    - index.qmd
+    - preface.qmd
+    - part: intro.qmd
+      chapters:
+        - 01-os.qmd
+        - 02-apps.qmd
+        - 03-internet.qmd
+    - part: files.qmd
+      chapters:
+        - 04-file-types.qmd
+        - 05-code.qmd
+        - 06-data.qmd
+        - 07-images.qmd
+        - 08-pats-keys.qmd
+    - part: apis.qmd
+      chapters:
+        - 09-api-overview.qmd
+
+format:
+  html:
+    theme: [flatly, custom.scss]
+    highlight-style: arrow
+    toc: true
+    lightbox: true
+    toc-depth: 4
+    date: last-modified
+    date-format: iso
+    toc-location: right
+    toc-title: Contents
+    toc-expand: true
+    code-overflow: scroll
+    code-link: false
+    #code-block-bg: "#f8f8f8"
+    #code-block-border-left: "#99bbc9"
+    code-annotations: hover
+    number-sections: true
+    callout-icon: false
+    code-fold: show
+    code-summary: 'show/hide'
+    df-print: tibble
+    dpi: 320
+    fig-format: retina
+    fig-asp: 0.618
+    fontsize: 1.075em
+    linestretch: 1.35
+    mermaid:
+      theme: neutral
+
+execute:
+  freeze: auto
+
+
+

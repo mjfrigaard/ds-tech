@@ -1,0 +1,32 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Data Science Technologies",
+    "section": "",
+    "text": "Welcome\nWelcome to ‘Data Science Technologies: A Non-Technical Guide’!",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\n\n\nshow/hide\n1 + 1\n\n\n[1] 2",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#book-outline",
+    "href": "index.html#book-outline",
+    "title": "Data Science Technologies",
+    "section": "Book outline",
+    "text": "Book outline\n\nIntroduction\n\n\nFiles\n\n\nAPIs",
+    "crumbs": [
+      "Welcome"
+    ]
+  }
+]
